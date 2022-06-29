@@ -1,5 +1,7 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 export const AddCategory = ({onNewCategory}) => {
 
@@ -17,13 +19,14 @@ export const AddCategory = ({onNewCategory}) => {
     }
 
   return (
-    <form onSubmit={(e)=>handleSubmit(e)}>
+    <form >
     <input 
     type="text"
     placeholder='Busca tu gifs favorito'
     value={inputValue}
     onChange={handleChange}
-     />
+     /> &nbsp;
+    <button type="button" onClick={handleSubmit} class="btn btn-lg btn-warning buttonOne"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
     </form>
   )
 }
