@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/reactGift/static/css/main.ac9615ad.css",
-    "main.js": "/reactGift/static/js/main.2a48f713.js",
+    "main.css": "/reactGift/static/css/main.145b15dc.css",
+    "main.js": "/reactGift/static/js/main.a4b03df5.js",
     "index.html": "/reactGift/index.html",
-    "main.ac9615ad.css.map": "/reactGift/static/css/main.ac9615ad.css.map",
-    "main.2a48f713.js.map": "/reactGift/static/js/main.2a48f713.js.map"
+    "main.145b15dc.css.map": "/reactGift/static/css/main.145b15dc.css.map",
+    "main.a4b03df5.js.map": "/reactGift/static/js/main.a4b03df5.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac9615ad.css",
-    "static/js/main.2a48f713.js"
+    "static/css/main.145b15dc.css",
+    "static/js/main.a4b03df5.js"
   ]
 }
